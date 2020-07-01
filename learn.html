@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="" />
+  <title>Rubicks Cube</title>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="images/icon.png">
+  <link href="styles.css" rel="stylesheet">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+ 	 </head>
+<body>
+	<header>
+			
+				<nav class="navBar" id="navBar">
+					<div class="nav-wrapper">
+						<a href="#" class="spa" >
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							Main
+						</a>
+						<a href="#!"class="spa">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							Learn
+						</a>
+						<a href="buy.html" class="spa">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							Buy
+						</a>
+						<a href="#!" class="spa">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							Other cubes
+						</a>
+					
+					
+						<img class="down-arrow" src="images/dArrow.svg" width="32px" >
+					</div>
+				</nav>
+			
+			
+
+		<div class="paralax">
+		
+		</div>
+	</header>
+	<main id="main">
+		<div class="content">
+			<article>
+				
+				<a class="link" href="#!"><h1 style="font-family: 'Nunito', sans-serif; font-size: 50px; margin-bottom: 3%">Solution</h1></a>
+				<p style="font-family: 'Merriweather','Georgia',serif;; font-size:80%;color: grey;">1 Jule, 2020 <span style="color:#FF867D; display:inline-block;"> • </span> 67 mins</p>
+				<div class="socNetCon">
+					<a href="https://www.facebook.com/albertmargaryan.73/" target="_blank"><img src="images/fb.svg" width="25px" class="socNet"></a>
+					<a href="https://www.instagram.com/albertm.exe/" target="_blank"><img src="images/insta.svg" width="25px" class="socNet"></a>
+					<a target="_blank"><img src="images/vk.svg" width="25px" class="socNet"></a>
+					<a target="_blank"><img src="images/tg.svg" width="25px" class="socNet"></a>
+				</div>
+				<h2>The Language</h2>
+				<p>Many 3×3×3 Rubik's Cube enthusiasts use a notation developed by David Singmaster to denote a sequence of moves, referred to as "Singmaster notation".Its relative nature allows algorithms to be written in such a way that they can be applied regardless of which side is designated the top or how the colours are organised on a particular cube.</p>
+				<img src="images/langmain.png" width="100%">
+				<ul class="lang-list">
+					<li>F (Front): the side currently facing the solver</li>
+					<li>B (Back): the side opposite the front</li>
+					<li>U (Up): the side above or on top of the front side</li>
+					<li>D (Down): the side opposite the top, underneath the Cube</li>
+					<li>L (Left): the side directly to the left of the front</li>
+					<li>R (Right): the side directly to the right of the front</li>
+					<li>ƒ (Front two layers): the side facing the solver and the corresponding middle layer</li>
+					<li>b (Back two layers): the side opposite the front and the corresponding middle layer</li>
+					<li>u (Up two layers): the top side and the corresponding middle layer</li>
+					<li>d (Down two layers): the bottom layer and the corresponding middle layer</li>
+					<li>l (Left two layers): the side to the left of the front and the corresponding middle layer</li>
+					<li>r (Right two layers): the side to the right of the front and the corresponding middle layer</li>
+					<li>x (rotate): rotate the entire Cube on R</li>
+					<li>y (rotate): rotate the entire Cube on U</li>
+					<li>z (rotate): rotate the entire Cube on F</li>
+				</ul>
+				<hr width="20%">
+				<h2>Optimal solutions</h2>
+				<p>Although there are a significant number of possible permutations for Rubik's Cube, a number of solutions have been developed which allow solving the cube in well under 100 moves.</p>
+				<p>Many general solutions for the Cube have been discovered independently. David Singmaster first published his solution in the book Notes on Rubik's "Magic Cube" in 1981. This solution involves solving the Cube layer by layer, in which one layer (designated the top) is solved first, followed by the middle layer, and then the final and bottom layer. After sufficient practice, solving the Cube layer by layer can be done in under one minute. Other general solutions include "corners first" methods or combinations of several other methods. In 1982, David Singmaster and Alexander Frey hypothesised that the number of moves needed to solve the Cube, given an ideal algorithm, might be in "the low twenties". In 2007, Daniel Kunkle and Gene Cooperman used computer search methods to demonstrate that any 3×3×3 Rubik's Cube configuration can be solved in 26 moves or fewer. In 2008, Tomas Rokicki lowered that number to 22 moves, and in July 2010, a team of researchers including Rokicki, working with Google, proved the so-called "God's number" to be 20. This is optimal, since there exist some starting positions which require a minimum of 20 moves to solve. More generally, it has been shown that an n×n×n Rubik's Cube can be solved optimally in Θ(n2 / log(n)) moves.</p>
+
+				<h2>Speedcubing methods</h2>
+				<p>A solution commonly used by speedcubers was developed by Jessica Fridrich. This method is called CFOP standing for "cross, F2L, OLL, PLL". It is similar to the layer-by-layer method but employs the use of a large number of algorithms, especially for orienting and permuting the last layer. The cross is done first, followed by first layer corners and second layer edges simultaneously, with each corner paired up with a second-layer edge piece, thus completing the first two layers (F2L). This is then followed by orienting the last layer, then permuting the last layer (OLL and PLL respectively). Fridrich's solution requires learning roughly 120 algorithms but allows the Cube to be solved in only 55 moves on average</p>
+				<p>A now well-known method was developed by Lars Petrus. In this method, a 2×2×2 section is solved first, followed by a 2×2×3, and then the incorrect edges are solved using a three-move algorithm, which eliminates the need for a possible 32-move algorithm later. The principle behind this is that in layer-by-layer, one must constantly break and fix the completed layer(s); the 2×2×2 and 2×2×3 sections allow three or two layers (respectively) to be turned without ruining progress. One of the advantages of this method is that it tends to give solutions in fewer moves. For this reason, the method is also popular for fewest move competitions.</p>
+				<p>The Roux Method, developed by Gilles Roux, is similar to the Petrus method in that it relies on block building rather than layers, but derives from corners-first methods. In Roux, a 3×2×1 block is solved, followed by another 3×2×1 on the opposite side. Next, the corners of the top layer are solved. The cube can then be solved using only moves of the U layer and M slice.</p>
+				<h2>Records</h2>
+					<ul>
+						<li>Single time: The world record time for solving a 3×3×3 Rubik's Cube is 3.47 seconds, held by Du Yusheng (杜宇生) of China, on 24 November 2018 at Wuhu Open 2018.[</li>
+						<li>Average time: The world record average of the middle three of five solve times (which excludes the fastest and slowest) is 5.53 seconds, set by Feliks Zemdegs of Australia at Odd Day at Sydney 2019.</li>
+						<li>One-handed solving: The world record fastest one-handed solve is 6.82 seconds, set by Max Park of the United States on 12 October 2019 at Bay Area Speedcubin' 20 2019. The world record fastest average of five one-handed solves is 9.42 seconds, also set by Max Park at Berkeley Summer 2018.</li>
+						<li>Feet solving: The world record fastest Rubik's Cube solve with one's feet is 15.56 seconds, set by Mohammed Aiman Koli of India on 27 December 2019 at VJTI Mumbai Cube Open 2019. The world record average of five feet solves is 19.90 seconds, set by Lim Hung (林弘) of Malaysia on 21 December 2019 at Medan 10th Anniversary 2019.</li>
+						<li>Blindfold solving: The world record fastest Rubik's Cube solve blindfolded is 15.50 seconds (including memorization), set by Max Hilliard of the United States on 1 August 2019 at CubingUSA Nationals 2019. The world record mean of three for blindfold solving is 18.18 seconds, set by Jeff Park of the United States on 14 December at OU Winter 2019.</li>
+						<li>Multiple blindfold solving: The world record for multiple Rubik's Cube solving blindfolded is 59 out of 60 cubes, set by Graham Siggins of the United States on 9 November 2019 at OSU Blind Weekend 2019. Siggins inspected 60 cubes, donned a blindfold, and solved successfully 59 of them, all under the time limit of one hour.</li>
+					</ul>
+					<h2>How to Solve?</h2>
+					<div class="quote-container">
+					<p class="quote"><i class="paragraph ">Here we come Now you can watch a short video and you will understand how to solve</i></p>
+				</div>	
+				<div style="display: flex; justify-content: center; margin: 40px;">
+					<iframe width="700" height="393.9330543933053" src="https://www.youtube.com/embed/1t1OL2zN0LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+	</main>
+	<footer>
+		<a href="#!" class="spa feedback">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						feedback
+		</a>
+	</footer>
+</body>
+</html>

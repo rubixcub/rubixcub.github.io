@@ -1,0 +1,396 @@
+html{
+	scroll-behavior: smooth;
+}
+::-moz-selection {
+  background: #FF9B99;
+}
+::selection {
+
+  background: #FF9B99;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+}
+.paragraph{
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+}
+.article{
+	margin-top: 5px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+.paralax {
+	background-image: url("https://wallpaperaccess.com/full/1642415.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	min-height: 500px;
+	max-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}/*
+#mainPic {
+	margin-top: -250px;
+}*/
+.content {
+	min-height: 800px;
+	/*background-color: #000;*/
+}
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(60px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 2s infinite;
+}
+
+a span{
+	position:absolute;
+	display: block;
+	
+}
+a span:nth-child(1){
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(90deg,transparent,#FF867D);
+}
+a:hover span:nth-child(1){
+	left: 100%;
+	transition:1s;
+}
+
+
+a span:nth-child(3){
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(270deg,transparent,#FF867D);
+}
+a:hover span:nth-child(3){
+	right: 100%;
+	transition:1s;
+	transition-delay: 0.5s;
+}
+
+
+a span:nth-child(2){
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg,transparent,#FF867D);
+}
+a:hover span:nth-child(2){
+	top: 100%;
+	transition:1s;
+	transition-delay: 0.25s;
+}
+
+
+
+a span:nth-child(4){
+		bottom: -100%;
+		left: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(360deg,transparent,#FF867D);
+}
+a:hover span:nth-child(4){
+	bottom: 100%;
+	transition:1s;
+	transition-delay: 0.75s;
+}
+.spa {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.2s;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	margin-left: 15px;
+	
+}
+
+.spa:hover {
+	color: #000;
+	background: #FF867D;
+	box-shadow:0 0 10px #FF867D, 0 0 40px #FF867D ,0 0 80px #FF867D;
+	transition-delay: 1s;
+}
+nav{
+	justify-content: center;
+	align-items:center;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	background-color: #fff;
+	margin-top: -3%; 
+	transition: margin 700ms;
+	
+}
+nav:hover{
+	margin: 20px 0;
+}
+.nav-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+	width:693.1px;
+	max-width: 700px;
+}
+.down-arrow{
+	margin: 10px;
+}
+#main {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 4%;
+	
+}
+
+
+.link {
+	color: #000;
+	text-decoration: none;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.link:link , .link:visited {
+	color: #000;
+}
+.socNet {
+	margin-right:  1%;
+	transition: all 0.2s ease-out;
+}
+.socNet:hover {
+	transform: scale(1.2);
+}
+.socNetCon {
+	margin-top: 3%;
+}
+.scrMain:link , .scrMain:visited {
+	color: #fff;
+}
+footer{
+	background-color: #C7C7C7;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px){
+
+}
+.down-arrow {
+	display: flex;
+	justify-content: center;
+
+}
+
+.quote{
+	border-left: 1px solid;
+	display: flex;
+	word-wrap: wrap;
+	padding: 10px;
+
+}
+.quote-container {
+	background-color: #F3F3F3;
+	padding: 20px;
+	max-width: 500px;
+	margin: 20px;
+}
+.buy-item {
+	width: 30%;
+	height: 175px;
+	min-width:400px;
+	margin: 20px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #fff;
+	transition: all 0.4s ease;
+	transition-delay: 0s; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid #e6e6e6;
+
+}
+.buy-item:hover {
+	transform: scale(1.1);
+}
+.new {
+	position: absolute;
+	z-index: 2;
+}
+.cube-img{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+
+	z-index: 1;
+
+}
+.stars-best {
+	position: absolute;
+	top: 55px;
+	left: 150px;
+}
+.content-buy {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 2;
+	top: 0;
+}
+.main-buy{
+	margin:4% 10%;
+}
+.buy-item:nth-child(2n){
+	margin-left: 50px;
+}
+
+.buy-items-text{
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	margin: 3px;
+}
+.buy-items-span {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+.buy-money {
+	font-size: 25px;
+	position: absolute;
+	bottom: 10px;
+	right: 160px;
+	color: #48CF75;
+
+}
+.actual-price {
+	width: 90px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;	
+
+	font-size: 20px;
+	background-color: #E1FCDE;
+	border-radius: 5px;
+}
+.cubes-name {
+	font-family: sans-serif;
+	font-size: 10px;
+	color: grey;
+
+	position: absolute;
+	top: 45px;
+	right: 50px;
+}
+
+.not-actula-price {
+	position: absolute;
+	color: grey;
+	bottom: 35px;
+	right: 185px;
+	font-family: sans-serif;
+}
+.buy-now {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	border: none;
+	width:120px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #E16E65;
+	cursor: pointer;
+}
+.buy-now:hover {
+	animation-name: buttonanim;
+	animation-duration: 0.5s;
+	background-color: #FF867D;
+}
+.cubes-link , .cubes-link:link , .cubes-link:visited {
+	color: #000;
+
+}
+.cubes-link:hover {
+	text-decoration: none;
+}
+
+.color-gamma {
+	position: absolute;
+	top: 45%;
+	right: 57px;
+}
+.for-you-cont{
+	height: 200px;
+	margin: 0;
+	position: relative;
+	z-index: -2;
+	justify-content: center;
+	align-items: center;
+}
+.sales-cont {
+	height: 200px;
+	margin: 0;
+	position: relative;
+	z-index: -2;
+	justify-content: center;
+	align-items: center;
+}
+#forYou {
+	opacity: 1;
+}
+@keyframes buttonanim {
+	from {background-color: #E16E65;}
+  	to {background-color: #FF867D;}
+}
+.feedback {
+	margin: 20px;
+	color: #fff;
+}
+.lang-list {
+	margin-left:  10%;
+}
+.video-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
