@@ -4,20 +4,100 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align\tproperty"
+				"cl",
+				"clip-path\tproperty"
 			],
 			[
-				"flex",
-				"flex-wrap\tproperty"
+				"ff",
+				"font-family\tproperty"
 			],
 			[
-				"font",
-				"font-size\tproperty"
+				"mt",
+				"margin-top\tproperty"
 			],
 			[
 				"ma",
 				"margin\tproperty"
+			],
+			[
+				"bgc",
+				"background-color\tproperty"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"transit",
+				"transition\tproperty"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"flex",
+				"flex-start\tjustify-content"
+			],
+			[
+				"o",
+				"overflow\tproperty"
+			],
+			[
+				"bode",
+				"border-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"boder",
+				"border-right\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"word",
+				"word-wrap\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"background",
+				"background\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
 			],
 			[
 				"transition-d",
@@ -60,10 +140,6 @@
 				"border-radius\tproperty"
 			],
 			[
-				"fo",
-				"font-family\tproperty"
-			],
-			[
 				"wid",
 				"width\tproperty"
 			],
@@ -86,10 +162,6 @@
 			[
 				"margi",
 				"margin\tproperty"
-			],
-			[
-				"fle",
-				"flex-direction\tproperty"
 			],
 			[
 				"max",
@@ -140,14 +212,6 @@
 				"background-color\tproperty"
 			],
 			[
-				"min",
-				"min-height\tproperty"
-			],
-			[
-				"background",
-				"background-position\tproperty"
-			],
-			[
 				"backg",
 				"background-color\tproperty"
 			],
@@ -184,10 +248,6 @@
 				"display\tproperty"
 			],
 			[
-				"pa",
-				"padding\tproperty"
-			],
-			[
 				"wi",
 				"width\tproperty"
 			],
@@ -219,7 +279,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5691,
+				"buffer_size": 8662,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -228,7 +288,7 @@
 			"file": "learn.html",
 			"settings":
 			{
-				"buffer_size": 9648,
+				"buffer_size": 13733,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -237,8 +297,15 @@
 			"file": "buy.html",
 			"settings":
 			{
-				"buffer_size": 13135,
-				"encoding": "UTF-8",
+				"buffer_size": 15413,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "deliver.html",
+			"settings":
+			{
+				"buffer_size": 9762,
 				"line_ending": "Windows"
 			}
 		},
@@ -246,8 +313,7 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 5994,
-				"encoding": "UTF-8",
+				"buffer_size": 9147,
 				"line_ending": "Windows",
 				"name": "body{"
 			}
@@ -285,6 +351,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Atrur/cube/.git/COMMIT_EDITMSG",
 		"/C/Users/Atrur/cube/cube.sublime-workspace",
 		"/C/Users/Atrur/cube/cube.sublime-project",
 		"/C/Users/Atrur/geommy/script.js",
@@ -311,7 +378,7 @@
 	],
 	"find":
 	{
-		"height": 42.4
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -325,6 +392,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"none",
+			"resize:",
+			"\");\n",
+			"wallpaper1",
+			"wrapper",
+			".footer",
+			".footer-wrapper",
+			"footer-wrapper",
+			"container",
 			"#main",
 			"main",
 			"serif",
@@ -359,7 +435,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -368,15 +444,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5691,
+						"buffer_size": 8662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4596,
-								4535
+								0,
+								0
 							]
 						],
 						"settings":
@@ -384,10 +460,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1760.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -396,15 +472,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9648,
+						"buffer_size": 13733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9229,
-								9229
+								0,
+								0
 							]
 						],
 						"settings":
@@ -413,10 +489,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2776.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -425,15 +501,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13135,
+						"buffer_size": 15413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12904,
-								12904
+								1293,
+								1293
 							]
 						],
 						"settings":
@@ -442,27 +518,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4456.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "styles.css",
+					"file": "deliver.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5994,
+						"buffer_size": 9762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5991,
-								5991
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -471,10 +577,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7584.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
