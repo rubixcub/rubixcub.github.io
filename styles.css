@@ -31,11 +31,12 @@ p{
 	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
-	min-height: 500px;
-	max-height: 600px;
+	min-height: 550px;
+	max-height: 650px;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%);
 }/*
 #mainPic {
 	margin-top: -250px;
@@ -149,11 +150,13 @@ nav{
 	padding-bottom: 10px;	
 	background-color: #fff;
 	margin-top: -3%; 
-	transition: margin 700ms;
+
+	transition: padding 700ms;
 	
 }
 nav:hover{
-	margin: 20px 0;
+	padding-top: 80px; 
+	
 }
 .nav-wrapper{
 	display: flex;
@@ -368,8 +371,10 @@ nav:hover{
 	margin: 0;
 	position: relative;
 	z-index: -2;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .sales-cont {
 	height: 200px;
@@ -423,6 +428,7 @@ nav:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 }
 .segment-one h3 {
 
@@ -486,13 +492,13 @@ nav:hover{
 	height: 35px;
 }
 .segment-four form input[type=text] {
-
 	height: 30px;
-
 }
+
 footer {
 	background: #111;
 	overflow: hidden;
+	clip-path: polygon(47% 7%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 .footer-bottom-text {
 	background-color: #111;
@@ -500,6 +506,8 @@ footer {
 	line-height: 75px;
 	color: #fff;
 }
+
+
 
 .deliver-content h1{
 	margin: 50px 0 0 0;
@@ -516,12 +524,15 @@ footer {
 	margin: 20px 20px;
 	background-color: #FAFAFA;
 	border: none;
-	box-sizing: border-box;
+	
 	font-size: 15px;
-	border-bottom: 1px solid #FF867D;
+	border-bottom: 1px solid #FF867D; 
 }
-input, textarea select { 
+input, textarea , button select { 
     outline: none;
+}
+button:focus {
+	outline: none;
 }
 .other-info input{
 	display: inline-block;
@@ -530,9 +541,8 @@ input, textarea select {
 	margin: 20px 20px;
 	background-color: #FAFAFA;
 	border: none;
-	box-sizing: border-box;
+	
 	border-bottom: 1px solid #FF867D;
-	transition: color 1s ease-out;
 	font-size: 15px;
 }
 .country label {
@@ -546,9 +556,8 @@ input, textarea select {
 	margin: 20px 20px;
 	background-color: #FAFAFA;
 	border: none;
-	box-sizing: border-box;
+	
 	border-bottom: 1px solid #FF867D;
-	transition: color 1s ease-out;
 	font-size: 15px;
 }
 .topics h2 {
@@ -563,13 +572,16 @@ input, textarea select {
 .add-ser label {
 	margin: 10px 10px;
 }
-input[type=submit] {
+.submit {
 	width: 25%;
 	padding: 10px;
 	margin: 20px 20px;
 	background-color: #FAFAFA;
 	border: none;
-	box-sizing: border-box;
+	cursor: pointer;
 	border-bottom: 1px solid #FF867D;
 	font-size: 15px;
+}
+input:required {
+  background-image: url('../images/icon.png');
 }

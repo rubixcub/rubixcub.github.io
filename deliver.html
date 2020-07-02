@@ -63,13 +63,13 @@
 		<div class="content deliver-content">
 			<h1>We deliver all rubix to your home</h1>
 			<h3>Just give us some contact info.</h3>
-			<form>
+			<form method="post">
 				<div class="required-info">
-					<input type="text" name="name" placeholder="Full Name" required="true">
+					<input type="text" name="name" placeholder="Full Name*" oninvalid="" required>
 					 <span class="border"></span>
-					<input type="email" name="mail" required="true" placeholder="E-mail">
+					<input type="email" name="mail"  placeholder="E-mail*" oninvalid="alert('Please type your real email adress e.g. test@test.com')" required>
 					 <span class="border"></span>
-					<input type="phone" placeholder="Phone number" name="phone">
+					<input type="phone" placeholder="Phone number*" name="phone" required>
 					 <span class="border"></span>
 					<br>
 
@@ -167,9 +167,14 @@
 						<label>Deliver exactly to your home $ 99 <input type="checkbox" name="additional-services"> </label><br>
 						<label>Grease for your cube  $ 2 <input type="checkbox" name="additional-services"></label><br>
 						<label>Stand for your cube(x5) $ 10 <input type="checkbox" name="additional-services"></label><br>
+					
 					</div>
 					<div>
-						<input type="submit" name="submit">
+						<textarea style="resize: none; width: 90%; height: 200px;margin: 30px 0;font-family: sans-serif;"wrap="soft"></textarea>
+					</div>
+					<div>
+
+						<input type="submit" class="submit" name="Submit" />
 					</div>	
 			</form>
 		</div>
