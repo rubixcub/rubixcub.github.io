@@ -583,5 +583,4 @@ button:focus {
 	font-size: 15px;
 }
 input:required {
-  background-image: url('../images/icon.png');
 }
