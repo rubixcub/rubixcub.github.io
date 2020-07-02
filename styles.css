@@ -12,6 +12,10 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Nunito', sans-serif;
+	background-color: #FCFCFC;
+}
+p{
+
 }
 .paragraph{
 	font-family: 'Nunito', sans-serif;
@@ -157,7 +161,7 @@ nav:hover{
 	justify-content: center;
 	align-items:center;
 	width:693.1px;
-	max-width: 700px;
+	max-width: 650px;
 }
 .down-arrow{
 	margin: 10px;
@@ -415,6 +419,7 @@ nav:hover{
 	display: flex;
 	flex-wrap: wrap;
 	flex-flow: row wrap;
+	word-wrap: break-word;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -433,7 +438,8 @@ nav:hover{
 }
 .container div {
 	width: 499px;
-	max-width: 500px;
+	max-width: 600px;
+	min-width: 100px;
 }
 .segment-two ul{
 	margin: 0;
@@ -486,4 +492,84 @@ nav:hover{
 }
 footer {
 	background: #111;
+	overflow: hidden;
+}
+.footer-bottom-text {
+	background-color: #111;
+	text-align: center;
+	line-height: 75px;
+	color: #fff;
+}
+
+.deliver-content h1{
+	margin: 50px 0 0 0;
+}
+.deliver-content form div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deliver-content form .required-info input {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	margin: 20px 20px;
+	background-color: #FAFAFA;
+	border: none;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-bottom: 1px solid #FF867D;
+}
+input, textarea select { 
+    outline: none;
+}
+.other-info input{
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	margin: 20px 20px;
+	background-color: #FAFAFA;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #FF867D;
+	transition: color 1s ease-out;
+	font-size: 15px;
+}
+.country label {
+	font-size: 20px;
+	margin: 0 20px;
+}
+.country select {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	margin: 20px 20px;
+	background-color: #FAFAFA;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #FF867D;
+	transition: color 1s ease-out;
+	font-size: 15px;
+}
+.topics h2 {
+	margin: 50px 20px 40px 20px;
+}
+.topics {
+	text-align: center;
+}
+.topics hr{
+	height: 0.1px;
+}
+.add-ser label {
+	margin: 10px 10px;
+}
+input[type=submit] {
+	width: 25%;
+	padding: 10px;
+	margin: 20px 20px;
+	background-color: #FAFAFA;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #FF867D;
+	font-size: 15px;
 }
