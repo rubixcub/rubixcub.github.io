@@ -280,7 +280,7 @@ nav:hover{
 	margin:4% 10%;
 }
 .buy-item:nth-child(2n){
-	margin-left: 50px;
+	
 }
 
 .buy-items-text{
@@ -367,7 +367,6 @@ nav:hover{
 	right: 57px;
 }
 .for-you-cont{
-	height: 200px;
 	margin: 0;
 	position: relative;
 	z-index: -2;
@@ -377,7 +376,7 @@ nav:hover{
 	text-align: center;
 }
 .sales-cont {
-	height: 200px;
+	
 	margin: 0;
 	position: relative;
 	z-index: -2;
@@ -402,6 +401,7 @@ nav:hover{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 }
 .p-footer {
 	display: flex;
@@ -492,7 +492,7 @@ nav:hover{
 	text-transform: uppercase;
 	height: 35px;
 }
-.segment-four form input[type=text] {
+.segment-four form input[type=email] {
 	height: 30px;
 }
 
@@ -584,3 +584,107 @@ button:focus {
 	border-radius: 2px;
 	font-size: 15px;
 }
+.video-container div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.to-top {
+	position: sticky; 
+	bottom: 30px; 
+	float: right; 
+}
+.img-cen {
+	float: right; 
+	margin: 10px;
+}
+@media screen and (max-width: 500px) {
+	body{
+		overflow-x: hidden;
+	}
+	nav:hover{
+	padding-top: 10px; 
+	}
+	.nav-wrapper{
+	width:190px;
+	max-width: 200px;
+	margin: 30px 0;
+	}
+	#main , .main-buy {
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 5%;
+	max-width: 300px;
+	}
+	.soc-wrap , .socNetCon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.socNetCon a {
+		margin: 0 7px;
+	}
+	.article {
+		font-size: 15px;
+	}
+	.img-cen {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		float: center;
+		align-items: center;
+		text-align: center;
+		margin: 0;
+	}
+	footer {
+		width: 100%;
+	}
+	.footer-wrapper , .p-footer {
+		max-width: 250px;
+	}
+	.buy-item {
+	height: 175px;
+	min-width: 275px;
+	max-width: 300px;
+	margin: 20px;
+	}
+	.buy-item:hover {
+		transform: scale(1);
+	}
+	.buy-items-text {
+		font-size: 15px;
+	}
+	.cubes-name {
+		top: 23px;
+	}
+	.sales-cont , .for-you-cont{
+		width: 100%;
+	}
+	.not-actula-price {
+		right: 10px;
+	}
+	iframe {
+		margin: 10px 0;
+	}
+	.required-info {
+		flex-direction: column;
+	}
+	.deliver-content form .required-info input , .other-info input , .country select {
+		width: 200px;
+	}
+	.break {
+		display: block;
+	}
+	.chose-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
+	.required-info , .other-info , .country {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	
