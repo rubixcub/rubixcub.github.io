@@ -631,7 +631,9 @@ button:focus {
 	max-width: 300px;
 	}
 	.deliver-main{
-		max-width: none;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 5%;
 	}
 	.soc-wrap , .socNetCon {
 		display: flex;
