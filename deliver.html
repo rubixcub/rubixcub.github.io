@@ -1,86 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="" />
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="" />
 
 
-	<meta property="og:title" content="Rubix Cub" />
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://www.facebook.com/" />
-	<meta property="og:url" content="https://www.twitter.com/" />
-	<meta property="og:url" content="https://www.pinterest.com/" />
-	<meta property="og:description"   content="In this website you can know much interesting info about rubiks cube & can buy one!!" />
-	<meta property="og:image" content="https://i.pinimg.com/originals/e3/4a/30/e34a307a8e524e94ceedf30ea5e7e7fe.jpg" />
+		<meta property="og:title" content="Rubix Cub" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://www.facebook.com/" />
+		<meta property="og:url" content="https://www.twitter.com/" />
+		<meta property="og:url" content="https://www.pinterest.com/" />
+		<meta property="og:description"   content="In this website you can know much interesting info about rubiks cube & can buy one!!" />
+		<meta property="og:image" content="https://i.pinimg.com/originals/e3/4a/30/e34a307a8e524e94ceedf30ea5e7e7fe.jpg" />
 
-  <title>Rubicks Cube</title>
-  
-  <link rel="icon" href="images/icon.png">
-  <link href="styles.css" rel="stylesheet">
- 
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
- 	 </head>
-<body>
-	<header>
-			
-				<nav class="navBar" id="navBar">
-					<div class="nav-wrapper">
-						<a href="index.html" class="spa" >
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							Main
-						</a>
-						<a href="learn.html"class="spa">
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							Learn
-						</a>
-						<a href="buy.html" class="spa">
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							Buy
-						</a>
-						<a href="deliver.html" class="spa">
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							delivery
-						</a>
-					
-					
-						<img class="down-arrow" src="images/dArrow.svg" width="32px" >
-					</div>
-				</nav>
-			
-			
+		<title>Rubicks Cube</title>
+	  
+	 	<link rel="icon" href="images/icon.png">
+	 	<link href="styles.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 
-		<div class="paralax">
-		
-		</div>
-	</header>
-	<main id="main">
-		<div class="content deliver-content">
-			<h1>We deliver all rubix to your home</h1>
-			<h3>Just give us some contact info.</h3>
-			<form>
-				<div class="required-info">
-					<input type="text" name="name" placeholder="Full Name*" oninvalid="" required>					
-					<input type="email" name="mail"  placeholder="E-mail*" oninvalid="alert('Please type your real email adress e.g. test@test.com')" required>					 
-					<input type="phone" placeholder="Phone number*" name="phone" required>
-					<br>
-
+ 	</head>
+	<body>
+		<header>
+			<nav class="navBar" id="navBar">
+				<div class="nav-wrapper">
+					<a href="index.html" class="spa" >
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						Main
+					</a>
+					<a href="learn.html"class="spa">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						Learn
+					</a>
+					<a href="#!" class="spa">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						Buy
+					</a>
+					<a href="deliver.html" class="spa">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						delivery
+					</a>					
+					<img class="down-arrow" src="images/dArrow.svg" width="32px" alt="down-arrow">
 				</div>
-				<div class="country">
-				<label>Your country:</label><select id="country" name="country">
+			</nav>	
+
+
+				<div class="paralax">
+		
+				</div>
+			</header>
+		<main class="deliver-main">
+			<div class="content deliver-content">
+				<h1>We deliver all rubix to your home</h1>
+				<h3>Just give us some contact info.</h3>
+				<form>
+					<div class="required-info">
+						<input type="text" name="name" placeholder="Full Name*" oninvalid="" required>					
+						<input type="email" name="mail"  placeholder="E-mail*" oninvalid="alert('Please type your real email adress e.g. test@test.com')" required>					 
+						<input type="phone" placeholder="Phone number*" name="phone" required>
+						<br>
+					</div>
+
+					<div class="country">
+						<label>Your country:</label>
+						<select id="country" name="country">
 						   <option value="Argentina">Argentina</option>
 						   <option value="Armenia">Armenia</option>
 						   <option value="Aruba">Aruba</option>
@@ -137,54 +135,53 @@
 						   <option value="United States of America">United States of America</option>
 						   <option value="Uraguay">Uruguay</option>
 						   <option value="Uzbekistan">Uzbekistan</option>
-					</select>
-				</div>
-					<br>
-					<div class="other-info">
-					<input type="adress" placeholder="Adress 1*" name="adress" required="true">
-					<input type="adress" name="adress" placeholder="Adress 2(!required)">
-				</div>
-					<div></div>
-					<div class="topics">
-					<hr width="20%" color="#FF867D" style="display:  inline-block;"> <h2 style="display: inline-block; text-transform: uppercase;">Which rubix cube do you want?</h2><hr style="display: inline-block; " color="#FF867D" width="20%"></div>
-					<br>
-					<div class="chose-wrapper">
-					<input type="radio" name="product" value="3x3RUBIKSCube">
-	 				<label for="male">3x3 Rubicks Cube</label><br>
-	 				<input type="radio" name="product" value="PiraminxQiYi">
-					<label for="female">Piraminx QiYi</label><br>
-					<input type="radio"  name="product" value="MegaminxGAN">
-					<label for="other">Megaminx GAN</label><br>
-					<input type="radio" name="product" value="QiCheng Skewb">
-					<div class="break"></div>
-	 				<label for="male">QiCheng Skewb</label><br>
-	 				<input type="radio" name="product" value="QiYiIvyCube">
-					<label for="female">QiYi Ivy Cube</label><br>
-					<input type="radio"  name="product" value="2x2GanCube">
-					<label for="other">2x2 Gan Cube</label><br>
+						</select>
+					</div>
+						<br>
+						<div class="other-info">
+							<input type="adress" placeholder="Adress 1*" name="adress" required="true">
+							<input type="adress" name="adress" placeholder="Adress 2(!required)">
+						</div>
+						<div></div>
 
-				</div>
+						<div class="topics">
+							<hr width="20%" color="#FF867D" style="display:  inline-block;"> <h2 style="display: inline-block; text-transform: uppercase;">Which rubix cube do you want?</h2><hr style="display: inline-block; " color="#FF867D" width="20%"></div>
+							<br>
+							<div class="chose-wrapper">
+							<input type="radio" name="product" value="3x3RUBIKSCube">
+			 				<label for="male">3x3 Rubicks Cube</label><br>
+			 				<input type="radio" name="product" value="PiraminxQiYi">
+							<label for="female">Piraminx QiYi</label><br>
+							<input type="radio"  name="product" value="MegaminxGAN">
+							<label for="other">Megaminx GAN</label><br>
+							<input type="radio" name="product" value="QiCheng Skewb">
+							<div class="break"></div>
+			 				<label for="male">QiCheng Skewb</label><br>
+			 				<input type="radio" name="product" value="QiYiIvyCube">
+							<label for="female">QiYi Ivy Cube</label><br>
+							<input type="radio"  name="product" value="2x2GanCube">
+							<label for="other">2x2 Gan Cube</label><br>
+						</div>
 				
-				<div class="topics">
-					<hr width="20%" style="display:  inline-block;" color="#FF867D"> <h2 style="display: inline-block; text-transform: uppercase;">What additional things do you want?</h2><hr style="display: inline-block;color:" color="#FF867D" width="20%"></div>
-					<br>
+						<div class="topics">
+							<hr width="20%" style="display:  inline-block;" color="#FF867D"> <h2 style="display: inline-block; text-transform: uppercase;">What additional things do you want?</h2><hr style="display: inline-block;color:" color="#FF867D" width="20%">
+						</div>
+						<br>
 					
-					<div class="add-ser">
-						<label>Deliver exactly to your home $ 99 <input type="checkbox" name="additional-services"> </label><br>
-						<label>Grease for your cube  $ 2 <input type="checkbox" name="additional-services"></label><br>
-						<label>Stand for your cube(x5) $ 10 <input type="checkbox" name="additional-services"></label><br>
-					
-					</div>
-					<div>
-						<textarea style="resize: none; width: 90%; height: 200px;margin: 30px 0;font-family: sans-serif;"wrap="soft"></textarea>
-					</div>
-					<div>
-
-						<input type="submit" class="submit" name="Submit" />
-					</div>	
-			</form>
-		</div>
-	</main>
+						<div class="add-ser">
+							<label>Deliver exactly to your home $ 99 <input type="checkbox" name="additional-services"> </label><br>
+							<label>Grease for your cube  $ 2 <input type="checkbox" name="additional-services"></label><br>
+							<label>Stand for your cube(x5) $ 10 <input type="checkbox" name="additional-services"></label><br>
+						</div>
+						<div>
+							<textarea style="resize: none; width: 90%; height: 200px;margin: 30px 0;font-family: sans-serif;"wrap="soft"></textarea>
+						</div>
+						<div>
+							<input type="submit" class="submit" name="Submit" />
+						</div>	
+				</form>
+			</div>
+		</main>
 	<footer>
 		<div class="footer-wrapper">
 			<div class="footer-top">
