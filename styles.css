@@ -23,13 +23,13 @@ nav {
 	padding-top: 10px;
 	padding-bottom: 10px;	
 	background-color: #fff;
-	margin-top: -3%; 
+	margin-top: -4%; 
 
 	transition: padding 700ms;
 	
 }
 nav:hover{
-	padding-top: 80px; 
+	padding-top: 85px; 
 	
 }
 .paragraph{
