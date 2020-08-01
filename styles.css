@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 html {
 	scroll-behavior: smooth;
 	--main-c: #FF867D;
@@ -8,6 +10,36 @@ html {
 ::selection {
 
   background: #FF9B99;
+}
+/* width */
+body::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+body::-webkit-scrollbar-button:start:decrement,
+body::-webkit-scrollbar-button:end:increment {
+  display: block;
+  height: 0;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+  opacity: 0.2;
+
+  /* Here */
+  display: none;
+
+  -webkit-border-radius: 0;
+  -webkit-border-bottom-right-radius: 14px;
+  -webkit-border-bottom-left-radius: 14px;
+}
+
+body::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #FF9B99;
+  -webkit-border-radius: 8px;
 }
 body {
 	margin: 0;
@@ -44,6 +76,7 @@ nav:hover{
 .paralax {
 	background-image: url("./images/wallpaper1.jpg");
 	background-repeat: no-repeat;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	min-height: 550px;
@@ -147,7 +180,6 @@ a:hover span:nth-child(4){
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 	margin-left: 15px;
-	
 }
 
 .spa:hover {
@@ -611,13 +643,34 @@ button:focus {
 	font-family: 'Nunito', sans-serif;
 	font-size: 30px;
 }
-
+.par-topic {
+	font-size: 100px;
+	line-height: 80px;
+	color: #fff;
+	font-family: 'Archivo Black', sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+h1 .mean {
+	line-height: 10px;
+	font-size: 15px;
+	font-family: serif;
+	letter-spacing: 6px;
+	
+	position: absolute;
+	left: 5px;
+	word-wrap: nowrap;
+}
 @media screen and (max-width: 500px) {
 	body{
 		overflow-x: hidden;
 	}
 	nav:hover{
 	padding-top: 10px; 
+	}
+	.par-topic {
+		left: 50px;
 	}
 	.nav-wrapper{
 	width:190px;
@@ -705,4 +758,3 @@ button:focus {
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
-	

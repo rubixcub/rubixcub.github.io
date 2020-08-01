@@ -1,0 +1,470 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"anim",
+				"animation-delay\tproperty"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"fon",
+				"font-variant\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"colr",
+				"color\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"texa",
+				"text-align\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"an",
+				"animation-duration\tproperty"
+			],
+			[
+				"bgcolo",
+				"background-color\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"o",
+				"overflow\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"displa",
+				"display-none"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"word",
+				"word-wrap\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"fl",
+				"flex-start\tjustify-content"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"main",
+				"main-link"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"wo",
+				"word-wrap\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"clip",
+				"clip-path\tproperty"
+			],
+			[
+				"tf",
+				"transform\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"war",
+				"flex-wrap\tproperty"
+			],
+			[
+				"ai",
+				"article"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"fony",
+				"font-family\tproperty"
+			],
+			[
+				"para",
+				"paragraph"
+			],
+			[
+				"nav",
+				"navBar"
+			],
+			[
+				"onmouse",
+				"onmouseout\tAttr"
+			],
+			[
+				"onm",
+				"onmouseover\tAttr"
+			],
+			[
+				"wra",
+				"flex-wrap\tproperty"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"background",
+				"background-position\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"_",
+				"_hip"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"span1",
+				"span1Div"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"daly",
+				"daly1"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Atrur/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Atrur/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Atrur/AppData/Roaming/Sublime Text 3/Packages/User/goto_css_declaration.sublime-settings",
+		"/C/Users/Atrur/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Atrur/Desktop/Albert/vidgets for chrome/main.css",
+		"/C/Users/Atrur/Desktop/Albert/vidgets for chrome/index.html",
+		"/C/Users/Atrur/cube/styles.css",
+		"/C/Users/Atrur/cube/learn.html",
+		"/C/Users/Atrur/Desktop/Albert/mail ru project/policy.html",
+		"/C/Users/Atrur/Desktop/Albert/mail ru project/main.css",
+		"/C/Users/Atrur/Desktop/Albert/mail ru project/index.html",
+		"/C/Users/Atrur/cube/deliver.html",
+		"/C/Users/Atrur/cube/buy.html",
+		"/C/Users/Atrur/cube/index.html",
+		"/C/Users/Atrur/Desktop/test/main.css",
+		"/C/Users/Atrur/Desktop/test/test.html",
+		"/C/Users/Atrur/cube/cube.sublime-workspace",
+		"/C/Users/Atrur/cube/cube.sublime-project",
+		"/C/Users/Atrur/Desktop/index.html",
+		"/C/Users/Atrur/geometry/main.css",
+		"/C/Users/Atrur/geometry/index.html",
+		"/C/Users/Atrur/geommy/main.css",
+		"/C/Users/Atrur/geommy/index.html",
+		"/C/Users/Atrur/geommy/script.js",
+		"/C/Users/Atrur/Desktop/Albert/git_task/getRandomLetter.js",
+		"/C/Users/Atrur/Desktop/Albert/git_task/README",
+		"/C/Users/Atrur/Desktop/Albert/git_task/getRandomNumber.js",
+		"/C/Users/Atrur/Desktop/Albert/git_task/README.md",
+		"/C/Users/Atrur/Desktop/Albert/git_task/index.html",
+		"/C/Users/Atrur/Desktop/Albert/Vsyakaya vsyachina/manything.html",
+		"/C/Users/Atrur/Desktop/Albert/123/html.html",
+		"/C/Users/Atrur/geommy/.gitignore",
+		"/C/Users/Atrur/Desktop/Albert/parol.html",
+		"/C/Users/Atrur/Desktop/Albert/madus website/mta.js",
+		"/C/Users/Atrur/Desktop/Albert/madus website/ind.js",
+		"/C/Users/Atrur/Desktop/Albert/madus website/patk.css",
+		"/C/Users/Atrur/Desktop/Albert/madus website/patk.html",
+		"/C/Users/Atrur/Desktop/Albert/madus website/ind.css",
+		"/C/Users/Atrur/Desktop/Albert/madus website/car.html",
+		"/C/Users/Atrur/Desktop/Albert/madus website/mtac.html",
+		"/C/Users/Atrur/Desktop/Albert/madus website/index.html",
+		"/C/Users/Atrur/Desktop/Albert/madus website/car.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
